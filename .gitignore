@@ -1,5 +1,7 @@
 # Prerequisites
 *.d
+*.db
+*.VC.db
 
 # Compiled Object files
 *.slo
@@ -30,3 +32,13 @@
 *.exe
 *.out
 *.app
+*.suo
+*.VC.db
+
+**.vs
+
+DeepNeuralNetwork/.vs/*
+DeepNeuralNetwork/.vs/DeepNeuralNetwork/v15/**
+DeepNeuralNetwork/DeepNeuralNetwork/Debug/*
+DeepNeuralNetwork/Debug/*
+

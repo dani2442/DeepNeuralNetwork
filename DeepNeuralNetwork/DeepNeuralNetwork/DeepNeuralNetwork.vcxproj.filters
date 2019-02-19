@@ -13,10 +13,48 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Layer">
+      <UniqueIdentifier>{8e63c3c6-4e08-4c55-917d-91b9d1999e1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Activation">
+      <UniqueIdentifier>{da679e2f-5a78-4cbb-a92d-3c8b43ee6378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Optimizer">
+      <UniqueIdentifier>{e4db574b-c57d-4a86-a37f-a4d8bf9fd41b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{6b668f34-8622-49bb-8d3c-3ab8e6c62cd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Output">
+      <UniqueIdentifier>{0b97d3fb-2853-4724-9ea1-f4bf9293cf61}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DNN.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NeuralNet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Output.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RNG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
