@@ -125,10 +125,14 @@
     <ClInclude Include="Config.h" />
     <ClInclude Include="DNN.h" />
     <ClInclude Include="Layer.h" />
+    <ClInclude Include="Layer\Convolutional.h" />
+    <ClInclude Include="Layer\FullyConnected.h" />
+    <ClInclude Include="Layer\Pooling.h" />
     <ClInclude Include="NeuralNet.h" />
     <ClInclude Include="Optimizer.h" />
     <ClInclude Include="Output.h" />
     <ClInclude Include="RNG.h" />
+    <ClInclude Include="Utils\Random.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
