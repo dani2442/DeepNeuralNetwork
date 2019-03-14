@@ -122,6 +122,11 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Activation\Identity.h" />
+    <ClInclude Include="Activation\ReLU.h" />
+    <ClInclude Include="Activation\Sigmoid.h" />
+    <ClInclude Include="Activation\Softmax.h" />
+    <ClInclude Include="Activation\Tanh.h" />
     <ClInclude Include="Config.h" />
     <ClInclude Include="DNN.h" />
     <ClInclude Include="Layer.h" />
@@ -131,6 +136,8 @@
     <ClInclude Include="NeuralNet.h" />
     <ClInclude Include="Optimizer.h" />
     <ClInclude Include="Output.h" />
+    <ClInclude Include="Output\CrossEntropy.h" />
+    <ClInclude Include="Output\MSE.h" />
     <ClInclude Include="RNG.h" />
     <ClInclude Include="Utils\Convolution.h" />
     <ClInclude Include="Utils\MaxAverage.h" />
