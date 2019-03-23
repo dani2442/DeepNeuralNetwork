@@ -95,5 +95,35 @@
     <ClInclude Include="Output\CrossEntropy.h">
       <Filter>Header Files\Output</Filter>
     </ClInclude>
+    <ClInclude Include="Optimizer\SGD.h">
+      <Filter>Header Files\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer\Momentum.h">
+      <Filter>Header Files\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer\NAG.h">
+      <Filter>Header Files\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer\AdaGrad.h">
+      <Filter>Header Files\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer\AdaDelta.h">
+      <Filter>Header Files\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer\Adam.h">
+      <Filter>Header Files\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer\Nadam.h">
+      <Filter>Header Files\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer\AdaMAX.h">
+      <Filter>Header Files\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer\RMSProp.h">
+      <Filter>Header Files\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer\AMSGrad.h">
+      <Filter>Header Files\Optimizer</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

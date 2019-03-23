@@ -38,3 +38,4 @@ public:
 		return result / m_din.cols();
 	}
 };
+
